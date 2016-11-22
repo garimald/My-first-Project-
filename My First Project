@@ -1,0 +1,4 @@
+import requests
+
+response = requests.get('http://graph.facebook.com/?id=https://google.com')
+return response
